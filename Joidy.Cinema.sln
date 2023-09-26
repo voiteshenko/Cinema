@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joidy.Cinema.Host", "Joidy.Cinema.Host\Joidy.Cinema.Host.csproj", "{0A42AE35-1B13-4C18-B023-6FB4D3A98D82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joidy.Cinema.Application", "Joidy.Cimena.Application\Joidy.Cinema.Application.csproj", "{351BC6DD-FC4E-496F-84A6-B3079A72C755}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joidy.Common", "Joidy.Common\Joidy.Common.csproj", "{D6562389-D432-4FA3-8538-93F0EEB21492}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joidy.Cinema.DataLayer", "Joidy.Cinema.DataLayer\Joidy.Cinema.DataLayer.csproj", "{86EFAE1C-6C6D-413D-9BC0-4B5F18326CA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joidy.Cinema.Common", "Joidy.Cinema.Common\Joidy.Cinema.Common.csproj", "{D8CB2660-6781-49EF-9107-3544D6833AB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joidy.Cinema.Dtos", "Joidy.Cinema.Dtos\Joidy.Cinema.Dtos.csproj", "{C8E43911-1E97-40B5-9360-48F1169F7A78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A42AE35-1B13-4C18-B023-6FB4D3A98D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A42AE35-1B13-4C18-B023-6FB4D3A98D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A42AE35-1B13-4C18-B023-6FB4D3A98D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A42AE35-1B13-4C18-B023-6FB4D3A98D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351BC6DD-FC4E-496F-84A6-B3079A72C755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351BC6DD-FC4E-496F-84A6-B3079A72C755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351BC6DD-FC4E-496F-84A6-B3079A72C755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351BC6DD-FC4E-496F-84A6-B3079A72C755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6562389-D432-4FA3-8538-93F0EEB21492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6562389-D432-4FA3-8538-93F0EEB21492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6562389-D432-4FA3-8538-93F0EEB21492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6562389-D432-4FA3-8538-93F0EEB21492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86EFAE1C-6C6D-413D-9BC0-4B5F18326CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86EFAE1C-6C6D-413D-9BC0-4B5F18326CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86EFAE1C-6C6D-413D-9BC0-4B5F18326CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86EFAE1C-6C6D-413D-9BC0-4B5F18326CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8CB2660-6781-49EF-9107-3544D6833AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CB2660-6781-49EF-9107-3544D6833AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CB2660-6781-49EF-9107-3544D6833AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CB2660-6781-49EF-9107-3544D6833AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E43911-1E97-40B5-9360-48F1169F7A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E43911-1E97-40B5-9360-48F1169F7A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E43911-1E97-40B5-9360-48F1169F7A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E43911-1E97-40B5-9360-48F1169F7A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A827D131-A3D8-496E-9EDF-89BCFDB5FE32}
+	EndGlobalSection
+EndGlobal
