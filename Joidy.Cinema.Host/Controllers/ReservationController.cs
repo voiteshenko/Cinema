@@ -1,5 +1,7 @@
 ﻿using Joidy.Cinema.Application.Commands.Reservation;
+using Joidy.Cinema.Application.Queries;
 using Joidy.Cinema.Dtos.Request.Reservation;
+using Joidy.Cinema.Dtos.Response.Reservation;
 using Joidy.Common.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -31,5 +33,29 @@ public class ReservationController : BaseApiController
         var result = await _mediator.Send(new ApproveReservationCommand(request));
 
         return result.Match<IActionResult>(e => BadRequest(e), Ok);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> Get([FromQuery] Guid id)
+    {
+        var result = await _mediator.Send(new GetReservationQuery(id));
+
+        return result == null
+            ? NotFound()
+            : Ok(new GetReservationResponse
+            {
+                Id = result.Id,
+                Movie = result.ShowTime.Movie.Name,
+                Description = result.ShowTime.Movie.Description,
+                StartDate = result.ShowTime.StartDate,
+                TotalPrice = result.TotalPrice,
+                IsApproved = result.IsApproved,
+                Email = result.Email,
+                SeatReservations = result.SeatReservations.Select(sr => new GetSeatReservationResponse
+                {
+                    RowNumber = sr.RowNumber,
+                    SeatNumber = sr.SeatNumber
+                })
+            });
     }
 }
