@@ -1,11 +1,11 @@
-﻿using Joidy.Cinema.Application.Commands.Movie;
-using Joidy.Cinema.Common;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Commands.Movie;
+using Cinema.Common;
+using Common.DataLayer;
 using Joidy.Common.Functional.Option;
 using MediatR;
 using static Joidy.Common.Functional.Option.OptionStatic;
 
-namespace Joidy.Cinema.Application.Handlers.Movie;
+namespace Cinema.Application.Handlers.Movie;
 
 public class DeleteMovieHandler : EntityService<DataLayer.Entities.Movie>, IRequestHandler<DeleteMovieCommand, Option<string>>
 {

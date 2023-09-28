@@ -1,8 +1,6 @@
-﻿using System;
-using Hangfire;
-using Joidy.Cinema.Host.Jobs;
+﻿using Hangfire;
 
-namespace CyberCube.Rewards.Host.Jobs
+namespace Cinema.Host.Jobs
 {
     public class JobScheduler
     {

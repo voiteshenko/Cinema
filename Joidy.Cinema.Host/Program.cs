@@ -1,16 +1,12 @@
-using CyberCube.Rewards.Host.Jobs;
 using FluentValidation.AspNetCore;
 using Hangfire;
 using Hangfire.SqlServer;
 using Hellang.Middleware.ProblemDetails;
-using Joidy.Cinema.Application;
-using Joidy.Cinema.DataLayer;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection;
-using FluentValidation;
-using Joidy.Cinema.Dtos.Request.Movie;
-using Joidy.Cinema.Host.Validation.Movie;
+using Cinema.Application;
+using Cinema.DataLayer;
+using Cinema.Host.Jobs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,8 +14,8 @@ var connectionString = builder.Configuration.GetConnectionString("JoidyCinemaCon
 
 builder.Services.AddMediatR(typeof(Program).Assembly);
 
-builder.Services.AddDbContext<JoidyCinemaContext>(options => options.UseSqlServer(connectionString));
-builder.Services.AddScoped<DbContext>(sp => sp.GetRequiredService<JoidyCinemaContext>());
+builder.Services.AddDbContext<CinemaContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddScoped<DbContext>(sp => sp.GetRequiredService<CinemaContext>());
 
 builder.Services.AddProblemDetails(options => { options.IncludeExceptionDetails = (context, exception) => false; })
     .AddJoidyProblemDetailsFactory();

@@ -1,4 +1,4 @@
-﻿namespace Joidy.Common.Functional.Either;
+﻿namespace Common.Functional.Either;
 
 public static class EitherLinqExtensions
 {

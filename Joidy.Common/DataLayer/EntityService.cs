@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace Joidy.Common.DataLayer;
+namespace Common.DataLayer;
 
 public class EntityService<TEntity> : IEntityService<TEntity>
     where TEntity : class

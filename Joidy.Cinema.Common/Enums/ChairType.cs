@@ -1,4 +1,4 @@
-﻿namespace Joidy.Cinema.Common.Enums;
+﻿namespace Cinema.Common.Enums;
 
 public enum ChairType
 {

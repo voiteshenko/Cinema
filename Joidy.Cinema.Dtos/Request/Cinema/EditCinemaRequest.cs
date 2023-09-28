@@ -1,4 +1,4 @@
-﻿namespace Joidy.Cinema.Dtos.Request.Cinema;
+﻿namespace Cinema.Dtos.Request.Cinema;
 
 public class EditCinemaRequest
 {

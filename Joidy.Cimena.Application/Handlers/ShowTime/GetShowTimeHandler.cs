@@ -1,9 +1,9 @@
-﻿using Joidy.Cinema.Application.Queries;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Queries;
+using Common.DataLayer;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Joidy.Cinema.Application.Handlers.ShowTime;
+namespace Cinema.Application.Handlers.ShowTime;
 
 public class GetShowTimeHandler : EntityService<DataLayer.Entities.ShowTime>, IRequestHandler<GetShowTimeQuery, IEnumerable<DataLayer.Entities.ShowTime>>
 {

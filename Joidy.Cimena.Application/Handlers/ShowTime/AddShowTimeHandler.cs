@@ -1,13 +1,13 @@
-﻿using Joidy.Cinema.Application.Commands.ShowTime;
-using Joidy.Cinema.Common;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Commands.ShowTime;
+using Cinema.Common;
+using Common.DataLayer;
 using Joidy.Common.Functional.Option;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using static Joidy.Common.Functional.Option.OptionStatic;
 
 
-namespace Joidy.Cinema.Application.Handlers.ShowTime;
+namespace Cinema.Application.Handlers.ShowTime;
 
 public class AddShowTimeHandler : EntityService<DataLayer.Entities.ShowTime>, IRequestHandler<AddShowTimeCommand, Option<string>>
 {
@@ -72,7 +72,7 @@ public class AddShowTimeHandler : EntityService<DataLayer.Entities.ShowTime>, IR
         return false;
     }
 
-    private bool IsInsideExisting(DateTime startDate, DateTime endDate, IEnumerable<Joidy.Cinema.DataLayer.Entities.ShowTime> showTimes)
+    private bool IsInsideExisting(DateTime startDate, DateTime endDate, IEnumerable<DataLayer.Entities.ShowTime> showTimes)
     {
         foreach (var showTime in showTimes)
         {

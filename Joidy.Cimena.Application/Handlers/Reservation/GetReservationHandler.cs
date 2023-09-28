@@ -1,9 +1,9 @@
-﻿using Joidy.Cinema.Application.Queries;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Queries;
+using Common.DataLayer;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Joidy.Cinema.Application.Handlers.Reservation;
+namespace Cinema.Application.Handlers.Reservation;
 
 internal class GetReservationHandler : EntityService<DataLayer.Entities.Reservation>, IRequestHandler<GetReservationQuery, DataLayer.Entities.Reservation>
 {

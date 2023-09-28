@@ -1,9 +1,8 @@
-﻿using FluentValidation;
-using Joidy.Cinema.Common;
-using Joidy.Cinema.Dtos.Request.Hall;
-using Joidy.Cinema.Dtos.Request.Movie;
+﻿using Cinema.Common;
+using Cinema.Dtos.Request.Hall;
+using FluentValidation;
 
-namespace Joidy.Cinema.Host.Validation.Hall;
+namespace Cinema.Host.Validation.Hall;
 
 public class AddHallToCinemaValidator : AbstractValidator<AddHallToCinemaRequest>
 {

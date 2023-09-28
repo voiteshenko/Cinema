@@ -1,10 +1,10 @@
-﻿using Joidy.Cinema.Application.Handlers.Movie;
-using Joidy.Cinema.Application.Services;
-using Joidy.Cinema.Application.Services.Abstractions;
+﻿using Cinema.Application.Handlers.Movie;
+using Cinema.Application.Services;
+using Cinema.Application.Services.Abstractions;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Joidy.Cinema.Application;
+namespace Cinema.Application;
 
 public static class ServiceExtensions
 {

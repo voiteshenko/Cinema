@@ -1,11 +1,11 @@
-﻿using Joidy.Cinema.Application.Commands.Cinema;
-using Joidy.Cinema.Common;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Commands.Cinema;
+using Cinema.Common;
+using Common.DataLayer;
 using Joidy.Common.Functional.Option;
 using MediatR;
 using static Joidy.Common.Functional.Option.OptionStatic;
 
-namespace Joidy.Cinema.Application.Handlers.Cinema;
+namespace Cinema.Application.Handlers.Cinema;
 
 public class EditCinemaHandler : EntityService<DataLayer.Entities.Cinema>, IRequestHandler<EditCinemaCommand, Option<string>>
 {

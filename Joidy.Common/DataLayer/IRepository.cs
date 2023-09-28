@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace Joidy.Common.DataLayer;
+namespace Common.DataLayer;
 
 public interface IRepository<TEntity> : IQueryable<TEntity>
     where TEntity : class

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Storage;
 
-namespace Joidy.Common.DataLayer;
+namespace Common.DataLayer;
 
 public interface IUnitOfWork : IDisposable, IAsyncDisposable
 {

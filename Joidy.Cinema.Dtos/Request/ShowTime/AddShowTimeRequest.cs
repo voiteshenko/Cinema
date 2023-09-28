@@ -1,4 +1,4 @@
-﻿namespace Joidy.Cinema.Dtos.Request.ShowTime;
+﻿namespace Cinema.Dtos.Request.ShowTime;
 
 public class AddShowTimeRequest
 {

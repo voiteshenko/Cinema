@@ -1,6 +1,6 @@
-﻿using Joidy.Cinema.Common.Enums;
+﻿using Cinema.Common.Enums;
 
-namespace Joidy.Cinema.DataLayer.Entities;
+namespace Cinema.DataLayer.Entities;
 
 public class Movie
 {

@@ -1,11 +1,11 @@
-﻿using Joidy.Cinema.Application.Commands.Reservation;
-using Joidy.Cinema.Common;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Commands.Reservation;
+using Cinema.Common;
+using Common.DataLayer;
 using Joidy.Common.Functional.Option;
 using MediatR;
 using static Joidy.Common.Functional.Option.OptionStatic;
 
-namespace Joidy.Cinema.Application.Handlers.Reservation;
+namespace Cinema.Application.Handlers.Reservation;
 
 public class ApproveReservationHandler : EntityService<DataLayer.Entities.Reservation>, IRequestHandler<ApproveReservationCommand, Option<string>>
 {

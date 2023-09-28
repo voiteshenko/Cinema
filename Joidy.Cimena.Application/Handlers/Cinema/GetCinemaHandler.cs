@@ -1,11 +1,11 @@
-﻿using Joidy.Cinema.Application.Queries;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Queries;
+using Common.DataLayer;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Joidy.Cinema.Application.Handlers.Cinema;
+namespace Cinema.Application.Handlers.Cinema;
 
-public class GetCinemaHandler : EntityService<DataLayer.Entities.Cinema>, IRequestHandler<GetCinemaQuery, IEnumerable<Joidy.Cinema.DataLayer.Entities.Cinema>>
+public class GetCinemaHandler : EntityService<DataLayer.Entities.Cinema>, IRequestHandler<GetCinemaQuery, IEnumerable<DataLayer.Entities.Cinema>>
 {
     public GetCinemaHandler(IRepository<DataLayer.Entities.Cinema> repository, IUnitOfWork unitOfWork) : base(repository, unitOfWork)
     {

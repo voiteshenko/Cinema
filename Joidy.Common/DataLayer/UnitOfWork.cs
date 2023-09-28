@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace Joidy.Common.DataLayer;
+namespace Common.DataLayer;
 
 public class UnitOfWork : IUnitOfWork
 {

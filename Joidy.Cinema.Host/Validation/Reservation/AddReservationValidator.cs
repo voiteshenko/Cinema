@@ -1,10 +1,9 @@
-﻿using FluentValidation;
-using Joidy.Cinema.Dtos.Request.Reservation;
-using System.Text.RegularExpressions;
-using Joidy.Cinema.Common;
-using Z.Expressions;
+﻿using System.Text.RegularExpressions;
+using Cinema.Common;
+using Cinema.Dtos.Request.Reservation;
+using FluentValidation;
 
-namespace Joidy.Cinema.Host.Validation.Reservation;
+namespace Cinema.Host.Validation.Reservation;
 
 public class AddReservationValidator : AbstractValidator<AddReservationRequest>
 {

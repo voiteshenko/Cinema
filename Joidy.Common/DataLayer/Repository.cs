@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using Z.EntityFramework.Plus;
 
-namespace Joidy.Common.DataLayer;
+namespace Common.DataLayer;
 
 public class Repository<TEntity> : IRepository<TEntity>
     where TEntity : class

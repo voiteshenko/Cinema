@@ -1,6 +1,6 @@
 ﻿using Hangfire;
 
-namespace Joidy.Common.Hangfire
+namespace Common.Hangfire
 {
     public abstract class RecurringJobBase : IJob
     {

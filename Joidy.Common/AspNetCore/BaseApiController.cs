@@ -1,10 +1,10 @@
 ﻿using System.Net;
-using Joidy.Common.Infrastructure;
+using Common.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Joidy.Common.AspNetCore;
+namespace Common.AspNetCore;
 
 [ApiController]
 [Route("[controller]")]

@@ -1,4 +1,4 @@
-﻿using Joidy.Common.DataLayer;
+﻿using Common.DataLayer;
 
 namespace Microsoft.Extensions.DependencyInjection;
 

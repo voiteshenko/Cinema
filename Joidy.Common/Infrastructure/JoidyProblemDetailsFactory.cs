@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 
-namespace Joidy.Common.Infrastructure;
+namespace Common.Infrastructure;
 
 public class JoidyProblemDetailsFactory
 {

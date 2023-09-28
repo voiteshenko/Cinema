@@ -1,6 +1,6 @@
-﻿using Joidy.Cinema.Common.Enums;
+﻿using Cinema.Common.Enums;
 
-namespace Joidy.Cinema.Dtos.Response.Cinema;
+namespace Cinema.Dtos.Response.Cinema;
 
 public class GetHallResponse
 {

@@ -1,18 +1,18 @@
-﻿using Joidy.Cinema.DataLayer.Entities;
+﻿using Cinema.DataLayer.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Joidy.Cinema.DataLayer;
+namespace Cinema.DataLayer;
 
-public class JoidyCinemaContext : DbContext
+public class CinemaContext : DbContext
 {
-    public JoidyCinemaContext(DbContextOptions options) : base(options)
+    public CinemaContext(DbContextOptions options) : base(options)
     {
 
     }
 
     public DbSet<Movie> Movies { get; set; }
 
-    public DbSet<Entities.Cinema> Cinemas { get; set; }
+    public DbSet<global::Cinema.DataLayer.Entities.Cinema> Cinemas { get; set; }
 
     public DbSet<Hall> Halls { get; set; }
 

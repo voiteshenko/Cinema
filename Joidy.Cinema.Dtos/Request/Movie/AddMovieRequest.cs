@@ -1,6 +1,6 @@
-﻿using Joidy.Cinema.Common.Enums;
+﻿using Cinema.Common.Enums;
 
-namespace Joidy.Cinema.Dtos.Request.Movie;
+namespace Cinema.Dtos.Request.Movie;
 
 public class AddMovieRequest
 {

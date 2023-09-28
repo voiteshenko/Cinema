@@ -1,6 +1,6 @@
-﻿using Joidy.Cinema.Common.Enums;
+﻿using Cinema.Common.Enums;
 
-namespace Joidy.Cinema.DataLayer.Entities;
+namespace Cinema.DataLayer.Entities;
 
 public class Hall
 {
@@ -14,7 +14,7 @@ public class Hall
 
     public string Boarding { get; set; }
 
-    public Cinema Cinema { get; set; }
+    public global::Cinema.DataLayer.Entities.Cinema Cinema { get; set; }
 
     public ICollection<Row> Rows { get; set; }
 }

@@ -1,4 +1,4 @@
-﻿namespace Joidy.Cinema.Dtos.Request.Reservation;
+﻿namespace Cinema.Dtos.Request.Reservation;
 
 public class AddReservationRequest
 {

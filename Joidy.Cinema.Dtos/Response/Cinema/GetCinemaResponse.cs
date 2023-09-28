@@ -1,4 +1,4 @@
-﻿namespace Joidy.Cinema.Dtos.Response.Cinema;
+﻿namespace Cinema.Dtos.Response.Cinema;
 
 public class GetCinemaResponse
 {

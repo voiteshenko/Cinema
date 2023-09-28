@@ -1,9 +1,9 @@
-﻿using Joidy.Cinema.Application.Commands.Cinema;
-using Joidy.Cinema.DataLayer.Entities;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Commands.Cinema;
+using Cinema.DataLayer.Entities;
+using Common.DataLayer;
 using MediatR;
 
-namespace Joidy.Cinema.Application.Handlers.Cinema;
+namespace Cinema.Application.Handlers.Cinema;
 
 public class AddCinemaHandler : EntityService<DataLayer.Entities.Cinema>, IRequestHandler<AddCinemaCommand, Unit>
 {
@@ -18,7 +18,7 @@ public class AddCinemaHandler : EntityService<DataLayer.Entities.Cinema>, IReque
             Id = Guid.NewGuid(),
             Address = command.Request.Address,
             Name = command.Request.Name,
-            Halls = command.Request.Halls.Select(hr => new Joidy.Cinema.DataLayer.Entities.Hall
+            Halls = command.Request.Halls.Select(hr => new DataLayer.Entities.Hall
             {
                 Id = Guid.NewGuid(),
                 Technology = hr.Technology,

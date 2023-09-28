@@ -23,9 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Joidy.Cimena.Application\Joidy.Cinema.Application.csproj" />
-    <ProjectReference Include="..\Joidy.Cinema.DataLayer\Joidy.Cinema.DataLayer.csproj" />
-    <ProjectReference Include="..\Joidy.Cinema.Dtos\Joidy.Cinema.Dtos.csproj" />
+    <ProjectReference Include="..\Joidy.Cimena.Application\Cinema.Application.csproj" />
+    <ProjectReference Include="..\Joidy.Cinema.DataLayer\Cinema.DataLayer.csproj" />
+    <ProjectReference Include="..\Joidy.Cinema.Dtos\Cinema.Dtos.csproj" />
   </ItemGroup>
 
 </Project>

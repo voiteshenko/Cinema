@@ -1,5 +1,5 @@
 ﻿using MediatR;
 
-namespace Joidy.Cinema.Application.Queries;
+namespace Cinema.Application.Queries;
 
-public record GetCinemaQuery : IRequest<IEnumerable<Cinema.DataLayer.Entities.Cinema>>;
+public record GetCinemaQuery : IRequest<IEnumerable<DataLayer.Entities.Cinema>>;

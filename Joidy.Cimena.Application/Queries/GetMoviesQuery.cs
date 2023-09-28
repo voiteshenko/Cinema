@@ -1,7 +1,7 @@
-﻿using Joidy.Cinema.DataLayer.Entities;
+﻿using Cinema.DataLayer.Entities;
 using MediatR;
 
-namespace Joidy.Cinema.Application.Queries
+namespace Cinema.Application.Queries
 {
     public record GetMoviesQuery : IRequest<IEnumerable<Movie>>;
 }

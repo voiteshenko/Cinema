@@ -1,6 +1,6 @@
-﻿using Joidy.Cinema.Dtos.Request.Cinema;
+﻿using Cinema.Dtos.Request.Cinema;
 
-namespace Joidy.Cinema.Dtos.Request.Hall;
+namespace Cinema.Dtos.Request.Hall;
 
 public class AddHallToCinemaRequest : AddHallRequest
 {

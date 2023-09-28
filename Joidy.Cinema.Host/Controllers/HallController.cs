@@ -1,10 +1,10 @@
-﻿using Joidy.Cinema.Application.Commands.Hall;
-using Joidy.Cinema.Dtos.Request.Hall;
-using Joidy.Common.AspNetCore;
+﻿using Cinema.Application.Commands.Hall;
+using Cinema.Dtos.Request.Hall;
+using Common.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Joidy.Cinema.Host.Controllers;
+namespace Cinema.Host.Controllers;
 
 public class HallController : BaseApiController
 {

@@ -1,4 +1,4 @@
-﻿namespace Joidy.Common.Hangfire
+﻿namespace Common.Hangfire
 {
     public interface IHangfireService
     {

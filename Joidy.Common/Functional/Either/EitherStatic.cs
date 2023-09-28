@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Joidy.Common.Functional.Either;
+namespace Common.Functional.Either;
 
 [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1649:SA1649FileNameMustMatchTypeName", Justification = "Reviewed.")]
 public static class Either

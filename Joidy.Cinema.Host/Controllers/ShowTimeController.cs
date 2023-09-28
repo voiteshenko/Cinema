@@ -1,12 +1,12 @@
-﻿using Joidy.Cinema.Application.Commands.ShowTime;
-using Joidy.Cinema.Application.Queries;
-using Joidy.Cinema.Dtos.Request.ShowTime;
-using Joidy.Cinema.Dtos.Response.ShowTime;
-using Joidy.Common.AspNetCore;
+﻿using Cinema.Application.Commands.ShowTime;
+using Cinema.Application.Queries;
+using Cinema.Dtos.Request.ShowTime;
+using Cinema.Dtos.Response.ShowTime;
+using Common.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Joidy.Cinema.Host.Controllers;
+namespace Cinema.Host.Controllers;
 
 public class ShowTimeController : BaseApiController
 {

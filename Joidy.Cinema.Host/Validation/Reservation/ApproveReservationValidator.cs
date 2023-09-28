@@ -1,8 +1,8 @@
-﻿using FluentValidation;
-using Joidy.Cinema.Common;
-using Joidy.Cinema.Dtos.Request.Reservation;
+﻿using Cinema.Common;
+using Cinema.Dtos.Request.Reservation;
+using FluentValidation;
 
-namespace Joidy.Cinema.Host.Validation.Reservation;
+namespace Cinema.Host.Validation.Reservation;
 
 public class ApproveReservationValidator : AbstractValidator<ApproveReservationRequest>
 {

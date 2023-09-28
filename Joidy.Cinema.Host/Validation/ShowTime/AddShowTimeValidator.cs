@@ -1,8 +1,8 @@
-﻿using FluentValidation;
-using Joidy.Cinema.Common;
-using Joidy.Cinema.Dtos.Request.ShowTime;
+﻿using Cinema.Common;
+using Cinema.Dtos.Request.ShowTime;
+using FluentValidation;
 
-namespace Joidy.Cinema.Host.Validation.ShowTime;
+namespace Cinema.Host.Validation.ShowTime;
 
 public class AddShowTimeValidator : AbstractValidator<AddShowTimeRequest>
 {

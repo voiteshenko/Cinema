@@ -1,4 +1,4 @@
-﻿namespace Joidy.Common.Functional.Either;
+﻿namespace Common.Functional.Either;
 
 public readonly struct Either<TLeft, TRight> : IEquatable<Either<TLeft, TRight>>, IComparable<Either<TLeft, TRight>>
     where TLeft : notnull

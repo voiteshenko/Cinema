@@ -1,4 +1,4 @@
-﻿namespace Joidy.Cinema.Application.Services.Abstractions;
+﻿namespace Cinema.Application.Services.Abstractions;
 
 public interface IReservationService
 {

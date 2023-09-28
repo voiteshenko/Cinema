@@ -1,9 +1,9 @@
-﻿using Joidy.Cinema.Application.Services.Abstractions;
-using Joidy.Cinema.DataLayer.Entities;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Services.Abstractions;
+using Cinema.DataLayer.Entities;
+using Common.DataLayer;
 using Microsoft.EntityFrameworkCore;
 
-namespace Joidy.Cinema.Application.Services;
+namespace Cinema.Application.Services;
 
 public class ReservationService : EntityService<Reservation>, IReservationService
 {

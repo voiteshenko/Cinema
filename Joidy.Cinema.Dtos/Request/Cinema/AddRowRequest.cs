@@ -1,6 +1,6 @@
-﻿using Joidy.Cinema.Common.Enums;
+﻿using Cinema.Common.Enums;
 
-namespace Joidy.Cinema.Dtos.Request.Cinema;
+namespace Cinema.Dtos.Request.Cinema;
 
 public class AddRowRequest
 {

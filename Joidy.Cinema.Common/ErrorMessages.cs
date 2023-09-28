@@ -1,4 +1,4 @@
-﻿namespace Joidy.Cinema.Common;
+﻿namespace Cinema.Common;
 
 public class ErrorMessages
 {

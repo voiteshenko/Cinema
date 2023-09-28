@@ -1,7 +1,7 @@
-﻿using Joidy.Cinema.Application.Services.Abstractions;
-using Joidy.Common.Hangfire;
+﻿using Cinema.Application.Services.Abstractions;
+using Common.Hangfire;
 
-namespace Joidy.Cinema.Host.Jobs;
+namespace Cinema.Host.Jobs;
 
 public class RemoveUnapprovedReservationJob : RecurringJobBase
 {

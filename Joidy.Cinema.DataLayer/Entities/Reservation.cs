@@ -1,4 +1,4 @@
-﻿namespace Joidy.Cinema.DataLayer.Entities;
+﻿namespace Cinema.DataLayer.Entities;
 
 public class Reservation
 {

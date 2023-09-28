@@ -1,8 +1,8 @@
-﻿using Joidy.Cinema.Application.Commands.Movie;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Commands.Movie;
+using Common.DataLayer;
 using MediatR;
 
-namespace Joidy.Cinema.Application.Handlers.Movie;
+namespace Cinema.Application.Handlers.Movie;
 
 public class AddMovieHandler : EntityService<DataLayer.Entities.Movie>, IRequestHandler<AddMovieCommand, Unit>
 {

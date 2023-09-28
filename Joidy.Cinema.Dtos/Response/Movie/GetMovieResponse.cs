@@ -1,6 +1,6 @@
-﻿using Joidy.Cinema.Common.Enums;
+﻿using Cinema.Common.Enums;
 
-namespace Joidy.Cinema.Dtos.Response.Movie;
+namespace Cinema.Dtos.Response.Movie;
 
 public class GetMovieResponse
 {

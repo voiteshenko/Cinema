@@ -1,13 +1,13 @@
-﻿using Joidy.Cinema.Application.Commands.Hall;
-using Joidy.Cinema.Common;
-using Joidy.Cinema.DataLayer.Entities;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Commands.Hall;
+using Cinema.Common;
+using Cinema.DataLayer.Entities;
+using Common.DataLayer;
 using Joidy.Common.Functional.Option;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using static Joidy.Common.Functional.Option.OptionStatic;
 
-namespace Joidy.Cinema.Application.Handlers.Hall;
+namespace Cinema.Application.Handlers.Hall;
 
 public class AddHallHandler : EntityService<DataLayer.Entities.Hall>, IRequestHandler<AddHallCommand, Option<string>>
 {
@@ -30,7 +30,7 @@ public class AddHallHandler : EntityService<DataLayer.Entities.Hall>, IRequestHa
             return Some(ErrorMessages.MovieNotFound);
         }
 
-        await CreateAsync(new Joidy.Cinema.DataLayer.Entities.Hall
+        await CreateAsync(new DataLayer.Entities.Hall
         {
             Id = Guid.NewGuid(),
             Boarding = command.Request.Boarding,

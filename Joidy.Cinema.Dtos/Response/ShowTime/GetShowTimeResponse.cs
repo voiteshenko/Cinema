@@ -1,4 +1,4 @@
-﻿namespace Joidy.Cinema.Dtos.Response.ShowTime;
+﻿namespace Cinema.Dtos.Response.ShowTime;
 
 public class GetShowTimeResponse
 {

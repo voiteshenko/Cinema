@@ -1,12 +1,12 @@
-﻿using Joidy.Cinema.Application.Commands.Movie;
-using Joidy.Cinema.Application.Queries;
-using Joidy.Cinema.Dtos.Request.Movie;
-using Joidy.Cinema.Dtos.Response.Movie;
-using Joidy.Common.AspNetCore;
+﻿using Cinema.Application.Commands.Movie;
+using Cinema.Application.Queries;
+using Cinema.Dtos.Request.Movie;
+using Cinema.Dtos.Response.Movie;
+using Common.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Joidy.Cinema.Host.Controllers;
+namespace Cinema.Host.Controllers;
 
 public class MovieController : BaseApiController
 {

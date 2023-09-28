@@ -1,7 +1,6 @@
 ﻿using Joidy.Common.Functional.Option;
 
-
-namespace Joidy.Common.Functional.Either;
+namespace Common.Functional.Either;
 
 public static class EitherExtensions
 {

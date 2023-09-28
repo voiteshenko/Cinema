@@ -1,4 +1,4 @@
-﻿using Joidy.Common.Infrastructure;
+﻿using Common.Infrastructure;
 
 // ReSharper disable once CheckNamespace
 namespace Microsoft.Extensions.DependencyInjection;

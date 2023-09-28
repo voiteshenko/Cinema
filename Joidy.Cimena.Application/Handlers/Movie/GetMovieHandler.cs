@@ -1,9 +1,9 @@
-﻿using Joidy.Cinema.Application.Queries;
-using Joidy.Common.DataLayer;
+﻿using Cinema.Application.Queries;
+using Common.DataLayer;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Joidy.Cinema.Application.Handlers.Movie;
+namespace Cinema.Application.Handlers.Movie;
 
 public class GetMovieHandler : EntityService<DataLayer.Entities.Movie>, IRequestHandler<GetMoviesQuery, IEnumerable<DataLayer.Entities.Movie>>
 {
